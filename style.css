@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(146, 184, 218);
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -5,6 +9,7 @@ h1, h2 {
 ul.nav {
     list-style: none;
     text-align: center;
+    position: relative;
 }
 
 li.nav {
@@ -28,5 +33,36 @@ li.nav {
 
   footer {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    margin-left: 450px;
   }
 
+  #attractions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+  }
+
+  a:hover {
+    background-color: yellowgreen;
+  }
+
+  img {
+    width: 200px;
+    height: 300px;
+    float: right;
+  }
+
+  td {
+    margin-left: 20px;
+  }
+
+  th{
+    margin-left: 20px;
+  }
+
+  table {
+    position: relative;
+  }
