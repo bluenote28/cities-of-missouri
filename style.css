@@ -44,13 +44,6 @@ li.nav {
 
   }
 
-  #attractions {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  
-  }
-
   a:hover {
     background-color: yellowgreen;
   }
@@ -59,21 +52,4 @@ li.nav {
     width: 200px;
     height: 300px;
     float: right;
-  }
-
-  td {
-    margin-left: 20px;
-  }
-
-  th{
-    margin-left: 20px;
-  }
-
-  table {
-    position: relative;
-  }
-
-  .emailform {
-    
-    text-align: center;
   }
