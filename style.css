@@ -1,15 +1,33 @@
-body{
-    background-color: rgb(146, 184, 218);
+.bg-index {
+  background-image: url("images/missouririver.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h1, h2 {
-    text-align: center;
+.bg-stlouis {
+  background-image: url("images/arch.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+h1.index, h2.index {
+    text-align: center;
+    color: aliceblue;    
+}
+
+h1.stlouis {
+  text-align: center;
+}
+
+
 
 ul.nav {
     list-style: none;
     text-align: center;
-    position: relative;
 }
 
 li.nav {
@@ -29,23 +47,13 @@ li.nav {
     border: 1px solid black;
     text-align: center;
     padding: 10px;
+    background-color: rgb(248, 199, 120);
   }
 
   footer {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-  }
-
-  .mainfooter {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    margin-left: 450px;
-
-  }
-
-  a:hover {
-    background-color: yellowgreen;
+    color: aliceblue;
   }
 
   img {
@@ -53,3 +61,12 @@ li.nav {
     height: 300px;
     float: right;
   }
+
+a.indexlink {
+  color: rgb(255, 255, 255);
+}
+
+a.stlouislink{
+  color: black;
+  background-color: aliceblue;
+}
