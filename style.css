@@ -34,8 +34,14 @@ li.nav {
   footer {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+  }
+
+  .mainfooter {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
     position: absolute;
     margin-left: 450px;
+
   }
 
   #attractions {
@@ -65,4 +71,9 @@ li.nav {
 
   table {
     position: relative;
+  }
+
+  .emailform {
+    
+    text-align: center;
   }
