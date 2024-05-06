@@ -81,11 +81,7 @@ li.nav {
     float: right;
   }
 
-a.indexlink {
-  color: rgb(255, 255, 255);
-}
-
-a.stlouislink{
+a {
   color: black;
   background-color: aliceblue;
 }
