@@ -14,6 +14,22 @@
   background-size: cover;
 }
 
+.bg-kc {
+  background-image: url("images/kansas-city.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-jeffcity {
+  background-image: url("images/jefferson-city.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1.index, h2.index {
     text-align: center;
     color: aliceblue;    
@@ -23,6 +39,9 @@ h1.stlouis {
   text-align: center;
 }
 
+h1, h2 {
+  text-align: center;
+}
 
 
 ul.nav {
