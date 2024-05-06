@@ -45,70 +45,12 @@
 
 </div>
 
-<h2>Attractions in Missouri</h2>
-
-<div id="attractions">
-<table>
-    <tr>
-      <th>Attraction</th>
-      <th>City</th>
-      <th>Link</th>
-    </tr>
-    <tr>
-      <td>Gateway Arch</td>
-      <td>St. Louis</td>
-      <td><a href="https://www.gatewayarch.com/" target="new window">https://www.gatewayarch.com/</a></td>
-    </tr>
-    <tr>
-      <td>Negro Leagues Baseball Museum</td>
-      <td>Kansas City</td>
-      <td><a href="https://www.nlbm.com/" target="new window">https://www.nlbm.com/</a></td>
-    </tr>
-    <tr>
-        <td>St. Louis Zoo</td>
-        <td>St. Louis</td>
-        <td><a href="https://stlzoo.org/" target="new window">https://stlzoo.org/</a></td>
-      </tr>
-  </table> 
-  </div>
-
-  
-  <div class="emailform">
-    <h2>Ask a Question</h2>
-  <form>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" placeholder="first name"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" placeholder="last name"><br><br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email" placeholder="example@example.com"><br><br>
-    <label for="confirmemail">Confirm Email:</label><br>
-    <input type="text" id="confirmemail" name="confirmemail" placeholder="example@example.com"><br><br>
-    <label for="question">Question:</label><br>
-    <input type="text" id="question" name="question" placeholder="Ask a question"><br><br>
-    
-    <input type="submit" value="Submit" onclick="checkEmail()">
-  </form>
-  </div>
-
 <footer class="mainfooter">
     <p><i>Citations</i></p>
     <p><i>MERIC. https://meric.mo.gov  Accessed 22 April 2024.</i></p>
     <p><i>SOS. www.sos.mo.gov  Accessed 22 April 2024.</i></p>
 
 </footer>
-
-<script>
-    function checkEmail() {
-      let email = document.getElementById("email").value;
-      let confirmemail = document.getElementById("confirmemail").value;
-
-      if (email != confirmemail) {
-        alert("Emails do not match");
-      }
-    }
-    </script>
-
 
 </body>
         
